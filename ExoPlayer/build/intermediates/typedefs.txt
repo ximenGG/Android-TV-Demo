@@ -1,0 +1,12 @@
+D com/google/android/exoplayer2/audio/DefaultAudioSink$StartMediaTimeState
+D com/google/android/exoplayer2/audio/SimpleDecoderAudioRenderer$ReinitializationState
+D com/google/android/exoplayer2/extractor/flv/FlvExtractor$States
+D com/google/android/exoplayer2/extractor/mp4/Mp4Extractor$State
+D com/google/android/exoplayer2/extractor/ts/Ac3Reader$State
+D com/google/android/exoplayer2/mediacodec/MediaCodecRenderer$AdaptationWorkaroundMode
+D com/google/android/exoplayer2/mediacodec/MediaCodecRenderer$ReconfigurationState
+D com/google/android/exoplayer2/mediacodec/MediaCodecRenderer$ReinitializationState
+D com/google/android/exoplayer2/text/TextRenderer$ReplacementState
+D com/google/android/exoplayer2/text/ttml/TtmlStyle$OptionalBoolean
+D com/google/android/exoplayer2/text/webvtt/WebvttCssStyle$OptionalBoolean
+D com/google/android/exoplayer2/video/DummySurface$SecureMode

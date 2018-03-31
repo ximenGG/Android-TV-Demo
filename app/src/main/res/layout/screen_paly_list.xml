@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/px320"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="right"
+    android:background="@drawable/play_list">
+
+    <ImageView
+        android:layout_width="@dimen/px106"
+        android:layout_height="@dimen/px26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px20"
+        android:src="@drawable/img_play_list_title" />
+
+    <ListView
+        android:id="@+id/screenAudioListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_cur"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px55"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="@dimen/px0"
+        android:focusable="false"
+        android:listSelector="@drawable/list_item_color_bg"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/px19"
+        android:layout_height="@dimen/px28"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/px14"
+        android:layout_marginTop="@dimen/px380"
+        android:src="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/px19"
+        android:layout_height="@dimen/px28"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/px14"
+        android:layout_marginTop="@dimen/px380"
+        android:src="@drawable/right" />
+
+
+    <TextView
+        android:id="@+id/tv_cur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/px10"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/px24"
+        android:textStyle="bold" />
+</RelativeLayout>

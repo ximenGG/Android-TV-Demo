@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.iptv.hq.ui.views.dynamicbg.DynamicViewBG
+        android:id="@+id/kb_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/px156"
+        android:layout_height="@dimen/px60"
+        android:layout_marginLeft="@dimen/px80"
+        android:layout_marginTop="@dimen/px60"
+        android:scaleType="fitXY"
+        android:src="@mipmap/logo_2" />
+
+    <com.iptv.hq.ui.views.BorderImageView
+        android:id="@+id/bt_member"
+        app:CircleRes="@drawable/focus_shape_3"
+        app:Type="Circle"
+        android:layout_width="@dimen/px56"
+        android:layout_height="@dimen/px56"
+        android:layout_marginLeft="@dimen/px1060"
+        android:layout_marginTop="@dimen/px40"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/member_home" />
+
+    <com.iptv.hq.ui.views.BorderImageView
+        android:id="@+id/bt_search"
+        app:CircleRes="@drawable/focus_shape_3"
+        app:Type="Circle"
+        android:layout_width="@dimen/px56"
+        android:layout_height="@dimen/px56"
+        android:layout_marginLeft="@dimen/px1140"
+        android:layout_marginTop="@dimen/px40"
+        android:focusable="true"
+        android:nextFocusRight="@+id/bt_search"
+        android:scaleType="fitXY"
+        android:src="@mipmap/search_home" />
+
+    <HorizontalScrollView
+        android:id="@+id/hscroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/px80"
+        android:layout_marginRight="@dimen/px60"
+        android:layout_marginTop="@dimen/px140"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:id="@+id/r_main_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_1"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px272"
+                android:layout_height="@dimen/px431" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_2"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px431"
+                android:layout_height="@dimen/px208"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_1" />
+
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_3"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_2"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_1" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_4"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_2"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_3" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_5"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_2" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_6"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px97"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_5" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_7"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px97"
+                android:layout_below="@+id/riv_6"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_5" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_8"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px431"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_5"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_4"
+                android:nextFocusDown="@id/riv_8" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_9"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px134"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_6" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_10"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px134"
+                android:layout_below="@+id/riv_9"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_6" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_11"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px134"
+                android:layout_below="@+id/riv_10"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_6" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_12"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px97"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_9" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_13"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px97"
+                android:layout_below="@+id/riv_12"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_9" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_14"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px431"
+                android:layout_height="@dimen/px208"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_12" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_15"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_13"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px14"
+                android:layout_toRightOf="@+id/riv_9"
+                android:nextFocusDown="@id/riv_15" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_16"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_14"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_12" />
+
+            <com.iptv.hq.ui.views.BorderImageView
+                android:id="@+id/riv_17"
+                style="@style/riv_style"
+                android:layout_width="@dimen/px208"
+                android:layout_height="@dimen/px208"
+                android:layout_below="@+id/riv_14"
+                android:layout_marginLeft="@dimen/px15"
+                android:layout_marginTop="@dimen/px15"
+                android:layout_toRightOf="@+id/riv_16" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

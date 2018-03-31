@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="video_url">
+        <item>http://video.daoran.tv/a9deb453726d4084b6bdeb0dc8017152/f18212e05f604ba9b73afc0bde141eea-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://flv3.bn.netease.com/videolib3/1709/15/XUeFJ9893/SD/XUeFJ9893-mobile.mp4</item>
+        <item>http://flv3.bn.netease.com/videolib3/1709/16/BdXrp2108/SD/BdXrp2108-mobile.mp4</item>
+        <item>http://video.daoran.tv/23cc903439d84874bf972e67af1bf42a/8b5844832a2c42e7bdd59a907f90349f-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/f5007705c38244a8b21e5f0a023885ab/f5e1dfd4e5614031ae631c65ceeeb52d-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/1683d15e673b4a2a889b216b5cae76b1/9942fbd2aacf4dff98a3a0d7107f86ff-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/c231a27b0d6f4d2395be200281917d20/dcc1420d51c84e199bb3214b0ce6a8d6-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/86c879a3d6f141f29f2e6f59e3b12631/6253bd2c0ab64c0ba1530119ad2dbccb-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447343/268447343.ts</item>
+        <item>http://202.99.114.93/88888891/16/20170309/269067607/269067607.ts</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447280/268447280.ts</item>
+        <item>http://202.99.114.93/88888891/16/20170309/269067734/269067734.ts</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447228/268447228.ts</item>
+    </string-array>
+    <string-array name="titles">
+        <item>http://flv3.bn.netease.com/videolib3/1709/13/CrqgX5261/SD/CrqgX5261-mobile.mp4</item>
+        <item>http://flv3.bn.netease.com/videolib3/1709/15/XUeFJ9893/SD/XUeFJ9893-mobile.mp4</item>
+        <item>http://flv3.bn.netease.com/videolib3/1709/16/BdXrp2108/SD/BdXrp2108-mobile.mp4</item>
+        <item>http://video.daoran.tv/23cc903439d84874bf972e67af1bf42a/8b5844832a2c42e7bdd59a907f90349f-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/f5007705c38244a8b21e5f0a023885ab/f5e1dfd4e5614031ae631c65ceeeb52d-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/1683d15e673b4a2a889b216b5cae76b1/9942fbd2aacf4dff98a3a0d7107f86ff-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/c231a27b0d6f4d2395be200281917d20/dcc1420d51c84e199bb3214b0ce6a8d6-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://video.daoran.tv/86c879a3d6f141f29f2e6f59e3b12631/6253bd2c0ab64c0ba1530119ad2dbccb-a5b7d8911cc7d347a9c9dd7e9b1d521b.mp4</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447343/268447343.ts</item>
+        <item>http://202.99.114.93/88888891/16/20170309/269067607/269067607.ts</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447280/268447280.ts</item>
+        <item>http://202.99.114.93/88888891/16/20170309/269067734/269067734.ts</item>
+        <item>http://202.99.114.93/88888891/16/20151026/268447228/268447228.ts</item>
+    </string-array>
+
+    <string-array name="effect">
+       <item>默认</item>
+       <item>超低音</item>
+       <item>清淡</item>
+       <item>古典</item>
+       <item>舞曲</item>
+       <item>平调</item>
+       <item>民族</item>
+       <item>重金属</item>
+       <item>嘻哈</item>
+       <item>爵士</item>
+       <item>流行</item>
+       <item>摇滚</item>
+       <item>拉丁</item>
+       <item>蓝调</item>
+    </string-array>
+</resources>

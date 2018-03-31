@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeBar">
+        <attr name="bar_height" format="dimension" />
+        <attr name="touch_target_height" format="dimension" />
+        <attr name="scrubber_enabled_size" format="dimension" />
+        <attr name="played_color" format="color" />
+        <attr name="scrubber_color" format="color" />
+        <attr name="buffered_color" format="color" />
+        <attr name="unplayed_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_icon" format="reference" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_title" format="string" />
+        <attr name="fab_stroke_visible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AddFloatingActionButton">
+        <attr name="fab_plusIconColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionsMenu">
+        <attr name="fab_addButtonColorPressed" format="color" />
+        <attr name="fab_addButtonColorNormal" format="color" />
+        <attr name="fab_addButtonSize" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_addButtonPlusIconColor" format="color" />
+        <attr name="fab_addButtonStrokeVisible" format="boolean" />
+        <attr name="fab_labelStyle" format="reference" />
+        <attr name="fab_labelsPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="fab_expandDirection" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+            <enum name="left" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="minWidth" format="dimension" />
+        <attr name="maxWidth" format="dimension" />
+        <attr name="minHeight" format="dimension" />
+        <attr name="maxHeight" format="dimension" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="indicatorName" format="enum">
+            <enum name="BallPulseIndicator" value="0" />
+            <enum name="BallGridPulseIndicator" value="1" />
+            <enum name="BallClipRotateIndicator" value="2" />
+            <enum name="SquareSpinIndicator" value="3" />
+            <enum name="BallClipRotateMultipleIndicator" value="4" />
+            <enum name="BallPulseRiseIndicator" value="5" />
+            <enum name="BallRotateIndicator" value="6" />
+            <enum name="CubeTransitionIndicator" value="7" />
+            <enum name="BallZigZagIndicator" value="8" />
+            <enum name="BallTrianglePathIndicator" value="9" />
+            <enum name="BallScaleIndicator" value="10" />
+            <enum name="LineScaleIndicator" value="11" />
+            <enum name="LineScalePartyIndicator" value="12" />
+            <enum name="BallScaleMultipleIndicator" value="13" />
+            <enum name="BallPulseSyncIndicator" value="14" />
+            <enum name="BallBeatIndicator" value="15" />
+            <enum name="LineScalePulseOutIndicator" value="16" />
+            <enum name="LineScalePulseOutRapidIndicator" value="17" />
+            <enum name="BallScaleRippleIndicator" value="18" />
+            <enum name="BallScaleRippleMultipleIndicator" value="19" />
+            <enum name="LineSpinFadeLoaderIndicator" value="20" />
+            <enum name="TriangleSkewSpinIndicator" value="21" />
+            <enum name="PacmanIndicator" value="22" />
+            <enum name="BallGridBeatIndicator" value="23" />
+            <enum name="SemiCircleSpinIndicator" value="24" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="BorderImageView">
+        <attr name="BorderRadius" format="dimension" />
+        <attr name="ScaleRatio" format="float" />
+        <attr name="CircleRes" format="reference" />
+        <attr name="RectangleRes" format="reference" />
+        <attr name="Type" format="enum">
+            <enum name="Rectangle" value="0" />
+            <enum name="Circle" value="1" />
+        </attr>
+        <attr name="AnimateTime" format="integer" />
+    </declare-styleable>
+</resources>

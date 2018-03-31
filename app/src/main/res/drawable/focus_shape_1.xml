@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 第一层的颜色为纯黑色 -->
+    <item>
+        <shape>
+            <stroke
+                android:width="@dimen/px5"
+                android:color="@android:color/black" />
+            <corners android:radius="@dimen/px14" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <!-- 第二层的颜色，也就是最上面的一层，因为第二层相对于View的底部上移一个dp所以第一层会露出一个dp的黑色所以给人一种只有底部边框的假象 -->
+    <item>
+        <shape>
+            <stroke
+                android:width="@dimen/px3"
+                android:color="#28effc" />
+            <corners android:radius="@dimen/px14" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

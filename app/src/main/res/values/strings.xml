@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LXTV</string>
+    <string name="showtime">--:-- / --:--</string>
+    <string name="sc_tv_name">- - - - -</string>
+    <string name="effect">[{"effect": [7,13,1,7,11],"name": "默认"},{"effect": [15,15,14,14,15],"name": "超低音"},{"effect": [9,5,3,6,10],"name": "清淡"},{"effect": [10,6,-4,8,8],"name": "古典"},{"effect": [12,0,4,8,2],"name": "舞曲"},{"effect": [0,0,0,0,0],"name": "平调"},{"effect": [6,0,0,4,-2],"name": "民族"},{"effect": [8,2,15,6,0],"name": "重金属"},{"effect": [10,6,0,2,6],"name": "嘻哈"},{"effect": [8,4,-4,4,10],"name": "爵士"},{"effect": [-2,4,10,2,-4],"name": "流行"},{"effect": [10,6,-2,6,10],"name": "摇滚"},{"effect": [12,4,-6,2,14],"name": "拉丁"},{"effect": [1,2,7,5,4],"name": "蓝调"}]</string>
+</resources>

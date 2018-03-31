@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.iptv.hq"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    greendao {
+        schemaVersion 1
+        daoPackage 'com.iptv.hq.bean.dao'
+        targetGenDir 'src/main/java/'
+    }
+    sourceSets {
+        main {
+            //manifest.srcFile'AndroidManifest.xml'
+            //java.srcDirs= ['src']
+            //res.srcDirs= ['res']
+            //assets.srcDirs= ['assets']
+            //aidl.srcDirs= ['aidl']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.github.bumptech.glide:glide:4.0.0'
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.wnafee:vector-compat:1.0.5'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
+    compile 'com.jpardogo.materialtabstrip:library:1.1.1'
+    compile project(':fragmentation')
+    compile project(':ExoPlayer')
+}

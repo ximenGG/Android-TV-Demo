@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.iptv.hq.ui.views.LoadingView
+            android:id="@+id/loading_view"
+            android:layout_width="@dimen/px100"
+            android:layout_height="@dimen/px100"
+            android:layout_gravity="center_horizontal"
+            app:indicatorName="LineScalePulseOutIndicator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px15"
+            android:gravity="center"
+            android:text="正在加载..."
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nonet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/px140"
+            android:layout_height="@dimen/px100"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_error_page" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="@dimen/px140"
+            android:layout_height="wrap_content"
+            android:text="设置网络"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</merge>
