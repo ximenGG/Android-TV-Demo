@@ -3,6 +3,7 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 
 ![](https://github.com/ximenGG/Android-TV-Demo/GIF.gif)
 ##MVP框架抽取
+    
     public abstract class BaseActivity<M extends IModel, V extends IView, P extends IPresenter<V, M>> {
     protected P mPresenter;
     protected M mModel;
@@ -62,6 +63,7 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 ####PREvent 有参数和返回值的事件
 ####REvent  有返回值无参数的事件
 ###EventManager 事件的管理者
+	  
 	  //存储一个事件
       EventManager.getInstance().post(new PEvent<ISupportFragment>("loadFragment") {
             @Override
@@ -69,11 +71,15 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
                 loadFragment(iSupportFragment);
             }
         });
+	
 	 //执行一个事件
 	   EventManager.getInstance().invokeEvent("loadFragment",OnlineFragment.newInstance(),true);
+	   
+	   
 ##ExoPlayer播放器（详情请阅读：[https://github.com/google/ExoPlayer](https://github.com/google/ExoPlayer)）
 ##进行了简单的封装，修改了源代码，使其支持左右声道的切换，增加了均衡器
- .......
+ 
+ 	.......
      exoplay = (ExoVideoView) findViewById(R.id.exoplay);
 	 exoplay.play(videoInfo);
  
