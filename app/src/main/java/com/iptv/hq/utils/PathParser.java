@@ -1,4 +1,4 @@
-package com.hq;
+package com.iptv.hq.utils;
 
 /**
  * 　　    ()  　　  ()
