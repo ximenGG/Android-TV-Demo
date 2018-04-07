@@ -95,7 +95,7 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 	   
 ##ExoPlayer播放器（详情请阅读：[https://github.com/google/ExoPlayer](https://github.com/google/ExoPlayer)）
 
-##进行了简单的封装，修改了源代码，使其支持左右声道的切换，增加了均衡器
+##扩展了ffmpeg库增加了ffmpeg音频解码，进行了简单的封装，修改了源代码，使其支持左右声道的切换，增加了均衡器
  
  	.......
      exoplay = (ExoVideoView) findViewById(R.id.exoplay);
