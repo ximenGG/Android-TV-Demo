@@ -2,6 +2,8 @@
 MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 
 ![](https://github.com/ximenGG/Android-TV-Demo/GIF.gif)
+
+
 ##MVP框架抽取
     
     public abstract class BaseActivity<M extends IModel, V extends IView, P extends IPresenter<V, M>> {
