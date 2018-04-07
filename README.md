@@ -3,6 +3,14 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 ###效果图
 ![](https://github.com/ximenGG/Android-TV-Demo/blob/master/GIF.gif)
 
+###焦点
+
+	<com.iptv.hq.ui.views.BorderImageView
+            android:id="@+id/item_1"
+            android:layout_width="@dimen/px217"
+            android:layout_height="@dimen/px261"
+            android:clickable="true"
+            android:focusable="true" />
 
 ##MVP框架抽取
     
