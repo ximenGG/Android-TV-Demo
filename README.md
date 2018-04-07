@@ -32,7 +32,8 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 
 	}
 ###Presenter
-	public abstract class IPresenter<V extends IView, M extends IModel> {
+	
+    public abstract class IPresenter<V extends IView, M extends IModel> {
     public WeakReference<IView> iView;
     public WeakReference<IModel> iModel;
 
