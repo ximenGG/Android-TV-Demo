@@ -1,7 +1,7 @@
 # Android-TV-Demo
 MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
-
-![](https://github.com/ximenGG/Android-TV-Demo/GIF.gif)
+###效果图
+![](https://github.com/ximenGG/Android-TV-Demo/blob/master/GIF.gif)
 
 
 ##MVP框架抽取
