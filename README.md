@@ -60,11 +60,17 @@ MVP框架，焦点框架，fragment框架，ExoPlayer媒体播放器
 	}
 
 ##Fragment
+
 ###Fragment是基于fragmentation进行拓展的（详情请参考：[https://github.com/YoKeyword/Fragmentation](https://github.com/YoKeyword/Fragmentation)），在此基础上增加了LoadingFragment,事件分发。并简化了Fragment之间的通讯
+
 ####Event   无参数无返回的事件
+
 ####PEvent  有参数无返回值的事件
+
 ####PREvent 有参数和返回值的事件
+
 ####REvent  有返回值无参数的事件
+
 ###EventManager 事件的管理者
 	  
 	  //存储一个事件
